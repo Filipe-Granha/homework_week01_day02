@@ -12,3 +12,8 @@ end
 def subtract()
   return 10 - 5
 end
+
+#Function 4
+def multiply()
+  return 4 * 2
+end
