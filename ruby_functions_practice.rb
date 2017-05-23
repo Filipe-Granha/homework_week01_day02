@@ -8,3 +8,7 @@ def add()
   return 1+2
 end
 
+#Function 3
+def subtract()
+  return 10 - 5
+end
