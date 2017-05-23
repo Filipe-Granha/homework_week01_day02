@@ -41,8 +41,33 @@ def add_string_as_number()
   return "1".to_i + "2".to_i
 end
 
+#Function 9
+puts "Select 1, 3 or 9 to find out the correspondent month's name:"
+month = gets.chomp()
+case month
+when "1"
+  puts "January"
+when "3"
+  puts "March"
+when "9"
+  puts "September"
+else
+  puts "You can only choose numbers 1, 3 or 9."
+end
 
-
+#Function 10
+puts "Select 1, 3 or 9 to find out the correspondent month's name abbreviation:"
+month = gets.chomp()
+case month
+when "1"
+  puts "Jan"
+when "3"
+  puts "Mar"
+when "9"
+  puts "Sep"
+else
+  puts "You can only choose numbers 1, 3 or 9."
+end
 
 
 
