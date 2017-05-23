@@ -17,3 +17,8 @@ end
 def multiply()
   return 4 * 2
 end
+
+#Function 5
+def divide()
+  return 10 / 2
+end
