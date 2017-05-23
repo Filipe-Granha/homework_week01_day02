@@ -22,3 +22,9 @@ end
 def divide()
   return 10 / 2
 end
+
+#Function 6
+def length_of_string()
+  string = "A string of length 21"
+  return string.length()
+end
